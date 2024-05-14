@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.container{
+    margin-top: 5rem;
+    border-radius: 10px;
+    background-color: white;
+    /* height: 400px; */
+    padding: 20px;
+}
+.section1{
+    display: inline-block;
+    
+}
+img{
+    height: 400px;
+    /* overflow: hidden;
+    object-fit: cover; */
+}
+.section2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.perfume{
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.4rem;
+    font-size: 15px;
+}
+.mainHeading{
+    font-weight: bold;
+    line-height: 30px;
+    padding: 10px 0;
+}
+.para{
+    color: hsl(228, 12%, 48%);
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.price{
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px 0;
+    margin-right: 15px;
+    margin-top: 5px;
+    color: hsl(158, 36%, 37%);
+}
+.discountedPrice{
+    display: inline-block;
+    color: hsl(228, 12%, 48%);
+}
+/* button{
+    display: block;
+} */
+
+button{
+    
+    padding: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 12px;
+}
+/* i{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-style: none;
+} */
+
+button:hover{
+    cursor: pointer;
+    background-color: hsla(158, 37%, 17%, 0.9);
+}
+
+@media all and (max-width: 630px) and (min-width: 0px){
+    .section2 {
+        display: block;
+    }
+    .container{
+        margin: 10%;
+    }
+}
